@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { MyConquestsComponent } from './my-conquests.component';
+
+describe('MyConquestsComponent', () => {
+  let component: MyConquestsComponent;
+  let fixture: ComponentFixture<MyConquestsComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [MyConquestsComponent]
+    });
+    fixture = TestBed.createComponent(MyConquestsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
