@@ -21,11 +21,11 @@ const routes: Routes = [
         component: MyProfileComponent
       },
       {
-        path: 'myProfile',
+        path: 'myConquests',
         component: MyConquestsComponent
       },
       {
-        path: 'myProfile',
+        path: 'myDisciplines',
         component: MyDisciplinesComponent
       }
     ]
