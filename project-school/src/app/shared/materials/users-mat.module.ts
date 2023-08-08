@@ -4,6 +4,7 @@ import {MatIconModule} from '@angular/material/icon';
 
 
 
+
 @NgModule({
 
   exports: [
@@ -12,7 +13,8 @@ import {MatIconModule} from '@angular/material/icon';
 
   ],
   declarations:[],
-  providers:[]
+  providers:[],
+  imports: [MatTabsModule],
 })
 
 export class UsersMaterialModule { }
