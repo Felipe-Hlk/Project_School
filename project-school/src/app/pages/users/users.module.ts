@@ -7,7 +7,8 @@ import { MyProfileComponent } from './my-profile/my-profile.component';
 import { MyConquestsComponent } from './my-conquests/my-conquests.component';
 import { MyDisciplinesComponent } from './my-disciplines/my-disciplines.component';
 import { UsersMaterialModule } from 'src/app/shared/materials/users-mat.module';
-import { SharedModule } from 'src/app/shared/models/shared.modules';
+import {SharedModule} from 'src/app/shared/models/shared.modules';
+
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { SharedModule } from 'src/app/shared/models/shared.modules';
     UsersMaterialModule,
     UsersRoutingModule,
     SharedModule
+
   ]
 })
 export class UsersModule { }
