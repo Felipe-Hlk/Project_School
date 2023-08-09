@@ -10,7 +10,9 @@
     <mat-nav-list>
       <a mat-list-item routerLink="/buttonIcon"> Button Icons</a>
       <a mat-list-item routerLink="/formFieldInput"> Form Field Inputs</a>
-      <a mat-list-item routerLink="/progressBarSpinner"> Progress Bar Spinner</a>
+      <a mat-list-item routerLink="/progressBarSpinner">
+        Progress Bar Spinner</a
+      >
       <a mat-list-item routerLink="/tabs"> Tabs </a>
       <a mat-list-item routerLink="/datepicker"> Datepickers </a>
       <a mat-list-item routerLink="/snackbar"> Snackbar </a>
@@ -42,8 +44,6 @@
       <span *ngIf="!popText">My App</span>
     </mat-toolbar>
 
-    <div class="main">
-      <router-outlet></router-outlet>
-    </div>
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

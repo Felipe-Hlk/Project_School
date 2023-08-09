@@ -1,12 +1,10 @@
-.main{
-  margin: 0px 15px 0px 15px;
-}
+// .content{
+//   margin: 0px 15px 0px 15px;
+// }
 
 .example-spacer {
   flex: 1 1 auto;
 }
-
-
 
 mat-sidenav-content {
   height: 100vh;
@@ -25,8 +23,9 @@ mat-sidenav-container {
 
 .toolbar-submenu {
   height: 100px;
-  font-size: 2rem;
-  margin-top: 60px;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }
 
 
