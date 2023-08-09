@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 
 @Component({
@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   templateUrl: './toolbar-title.component.html',
   styleUrls: ['./toolbar-title.component.scss']
 })
-export class ToolbarTitleComponent {
+export class ToolbarTitleComponent implements OnInit {
+  @Input() title: string = "";
+  @Input() icon: string = "";
+
+  constructor() {}
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
 }
