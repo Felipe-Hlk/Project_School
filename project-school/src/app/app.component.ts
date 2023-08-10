@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, Input, OnInit } from '@angular/core'
 import {BreakpointObserver} from '@angular/cdk/layout'
 import { fromEvent, map } from 'rxjs';
+import { MenuItem } from './shared/models/menuItem';
+import { menuItems } from './shared/models/menu';
 
 
 export const SCROLL_CONTAINER = 'mat-sidenav-content';
@@ -18,6 +20,7 @@ export class AppComponent implements OnInit {
   public smallScreen = false;
   public popText = false;
   public applyShadow = false;
+  public items_menu: MenuItem[] = menuItems;
 
   constructor(private breakpointObserver: BreakpointObserver){ }
   ngOnInit(): void {
@@ -56,5 +59,6 @@ export class AppComponent implements OnInit {
   get sidenavMode() {
     return this.smallScreen ? 'over' : 'side';
   }
+
 
 }

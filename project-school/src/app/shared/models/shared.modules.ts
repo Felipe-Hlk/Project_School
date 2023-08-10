@@ -3,21 +3,25 @@ import { ToolbarTitleComponent } from '../components/toolbar-title/toolbar-title
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
   imports:[
     MatToolbarModule,
     MatIconModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    ReactiveFormsModule
   ],
 
   declarations:[
-    ToolbarTitleComponent
+    ToolbarTitleComponent,
+    
   ],
 
   exports: [
-    ToolbarTitleComponent
+    ToolbarTitleComponent,
+    ReactiveFormsModule
   ]
 })
 
