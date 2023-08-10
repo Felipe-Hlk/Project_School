@@ -14,7 +14,9 @@ export class ToolbarTitleComponent implements OnInit {
 
   @Input()
   set icon (value:string) {
-    value.includes('fa-') ? this.iconFa = value : this.iconMat = value;
+    value.includes('fa-') ?
+    this.iconFa = `icon-space-fa ${value}` :
+    this.iconMat = value;
   }
 
 
