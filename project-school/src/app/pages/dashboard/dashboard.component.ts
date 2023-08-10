@@ -7,7 +7,6 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent {
-  
   showDelay = new FormControl(1000);
   hideDelay = new FormControl(2000);
 

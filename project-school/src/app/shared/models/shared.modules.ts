@@ -3,7 +3,7 @@ import { ToolbarTitleComponent } from '../components/toolbar-title/toolbar-title
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -11,18 +11,17 @@ import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatToolbarModule,
     MatIconModule,
     FlexLayoutModule,
-    FormControl,
-    FormsModule,
     ReactiveFormsModule
-
   ],
 
   declarations:[
-    ToolbarTitleComponent
+    ToolbarTitleComponent,
+    
   ],
 
   exports: [
-    ToolbarTitleComponent
+    ToolbarTitleComponent,
+    ReactiveFormsModule
   ]
 })
 
