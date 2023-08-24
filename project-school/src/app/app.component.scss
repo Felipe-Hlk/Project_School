@@ -6,7 +6,7 @@
   flex: 1 1 auto;
 }
 
-mat-sidenav{
+mat-sidenav {
   background-color: #f0f8ff;
 }
 
@@ -20,10 +20,13 @@ mat-sidenav-container {
   background-color: #f0f8ff;
 }
 
-.sidemenu{
+.sidemenu {
   background-color: #f0f8ff;
 }
 
+span{
+  color: #326089;
+}
 
 .toolbar-menu {
 
@@ -33,7 +36,7 @@ mat-sidenav-container {
   background-color: #326089;
 }
 
-.example-icon{
+.example-icon {
   color: #f0f8ff;
 }
 
@@ -52,26 +55,53 @@ mat-sidenav-container {
 
 // ------------sidebar------------- //
 
-.mat-drawer-content{
+.mat-drawer-content {
   background-color: #efefef;
 }
 
-.sidenav{
+.sidenav {
   width: 200px;
   margin-top: 64px;
+  color: #326089;
+
+
+
+  mat-icon {
+    margin: 0 10px -9px 0;
+    font-size: 18px;
+    color: #326089;
+
+
+  }
+
+
+  .example-icon {
+    color: #326089;
+  }
+
+  mat-toolbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    color: #326089;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: #326089;
+  }
+
+  .avatar{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+  }
+
+
+
 
 }
-
-mat-icon{
-  margin: 0 10px -9px 0;
-  font-size: 18px;
-  color:#000000;
-
-}
-
-
-.example-icon{
-  color:#f0f8ff;
-}
-
-
