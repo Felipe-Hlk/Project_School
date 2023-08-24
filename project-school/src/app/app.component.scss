@@ -15,10 +15,11 @@ mat-sidenav-container {
 }
 
 .toolbar-menu {
-  position: fixed;
+
   font-size: 1rem;
-  top: 0;
   z-index: 1001;
+  margin-bottom: 10px;
+
 }
 
 .toolbar-submenu {
@@ -32,3 +33,17 @@ mat-sidenav-container {
 .title {
   margin-bottom: 500px;
 }
+
+
+// ------------sidebar------------- //
+
+.mat-drawer-content{
+  background-color: #efefef;
+}
+
+.sidenav{
+  width: 250px;
+  margin-top: 64px;
+}
+
+
