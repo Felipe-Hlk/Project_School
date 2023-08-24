@@ -6,19 +6,35 @@
   flex: 1 1 auto;
 }
 
+mat-sidenav{
+  background-color: #f0f8ff;
+}
+
 mat-sidenav-content {
   height: 100vh;
+  background-color: #f0f8ff;
 }
 
 mat-sidenav-container {
   height: 100vh;
+  background-color: #f0f8ff;
 }
 
+.sidemenu{
+  background-color: #f0f8ff;
+}
+
+
 .toolbar-menu {
-  position: fixed;
+
   font-size: 1rem;
-  top: 0;
   z-index: 1001;
+  margin-bottom: 20px;
+  background-color: #326089;
+}
+
+.example-icon{
+  color: #f0f8ff;
 }
 
 .toolbar-submenu {
@@ -32,3 +48,30 @@ mat-sidenav-container {
 .title {
   margin-bottom: 500px;
 }
+
+
+// ------------sidebar------------- //
+
+.mat-drawer-content{
+  background-color: #efefef;
+}
+
+.sidenav{
+  width: 200px;
+  margin-top: 64px;
+
+}
+
+mat-icon{
+  margin: 0 10px -9px 0;
+  font-size: 18px;
+  color:#000000;
+
+}
+
+
+.example-icon{
+  color:#f0f8ff;
+}
+
+
