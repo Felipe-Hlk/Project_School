@@ -35,7 +35,7 @@
       <button mat-icon-button (click)="sidenav.toggle()">
         <mat-icon class="example-icon"> {{sidenav.opened ? 'close' : 'menu'}} </mat-icon>
       </button>
-      <span *ngIf="popText">My App</span>
+      <span *ngIf="popText">My app</span>
       <span class="example-spacer"></span>
 
       <button mat-icon-button class="favorite-icon">
@@ -47,9 +47,9 @@
       </button>
 
     </mat-toolbar>
-    <!-- <mat-toolbar class="toolbar-submenu" color="primary">
-      <span *ngIf="!popText">My App</span>
-    </mat-toolbar> -->
+    <mat-toolbar class="toolbar-submenu" >
+      <span *ngIf="!popText">{{menuName}}</span>
+    </mat-toolbar>
 
     <router-outlet></router-outlet>
   </mat-sidenav-content>

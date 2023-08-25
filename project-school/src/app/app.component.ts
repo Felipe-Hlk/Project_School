@@ -39,6 +39,7 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit(): void {
+    
     const content = document.getElementsByClassName(SCROLL_CONTAINER)[0];
     console.log (content);
 
