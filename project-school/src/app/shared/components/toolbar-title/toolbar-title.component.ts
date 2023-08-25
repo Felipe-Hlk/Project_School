@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './toolbar-title.component.html',
   styleUrls: ['./toolbar-title.component.scss']
 })
-export class ToolbarTitleComponent implements OnInit {
+export class ToolbarTitleComponent {
   @Input() title: string = "";
 
   iconFa = '';
@@ -18,12 +18,7 @@ export class ToolbarTitleComponent implements OnInit {
     this.iconFa = `icon-space-fa ${value}` :
     this.iconMat = value;
   }
-
-
-
   constructor() {}
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+
 
 }

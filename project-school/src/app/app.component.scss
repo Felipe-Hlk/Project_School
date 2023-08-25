@@ -24,15 +24,15 @@ mat-sidenav-container {
   background-color: #f0f8ff;
 }
 
-span{
-  color: #326089;
-}
+// span{
+//   color: #326089;
+// }
 
 .toolbar-menu {
 
   font-size: 1rem;
   z-index: 1001;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   background-color: #326089;
 }
 
@@ -41,10 +41,12 @@ span{
 }
 
 .toolbar-submenu {
-  height: 100px;
+  height: 70px;
   font-size: 1.5rem;
-  margin-top: 30px;
+  // margin-top: 30px;
   margin-bottom: 5px;
+  background: #326089;
+  color: #f0f8ff;
 }
 
 
@@ -61,7 +63,7 @@ span{
 
 .sidenav {
   width: 200px;
-  margin-top: 64px;
+  // margin-top: 64px;
   color: #326089;
 
 
