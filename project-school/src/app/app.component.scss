@@ -24,6 +24,7 @@ mat-sidenav-container {
 
 .sidemenu {
   background-color: #f0f8ff;
+
 }
 
 // span{
@@ -31,7 +32,7 @@ mat-sidenav-container {
 // }
 
 .toolbar-menu {
-
+  margin-top: 64px;
   font-size: 1rem;
   z-index: 1001;
   // margin-bottom: 20px;
@@ -41,7 +42,7 @@ mat-sidenav-container {
 
 
 .toolbar-submenu {
-  height: 70px;
+  // height: 70px;
   font-size: 1.5rem;
   // margin-top: 30px;
   background: #326089;
@@ -68,11 +69,13 @@ mat-sidenav-container {
 
 .mat-drawer-content {
   background-color: #efefef;
+
+
 }
 
 .sidenav {
   width: 200px;
-  // margin-top: 64px;
+  margin-top: 70px;
   color: #326089;
 
 
@@ -96,6 +99,7 @@ mat-sidenav-container {
     text-align: center;
     height: 200px;
     color: #326089;
+
 
   }
 
