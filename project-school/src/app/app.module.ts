@@ -9,6 +9,7 @@ import { MaterialModule } from './shared/materials/material.module';
 
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
+import { ToolbarMenuComponent } from './shared/components/toolbar-menu/toolbar-menu.component';
 
 
 
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
+    ToolbarMenuComponent,
 
   ],
   imports: [
