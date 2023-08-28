@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, inject } from '@angular/core'
+import { Component, OnInit, inject } from '@angular/core'
 import { BreakpointObserver } from '@angular/cdk/layout'
 import { filter, fromEvent, map } from 'rxjs';
 import { MenuItem } from './shared/models/menuItem';
@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit(): void {
-    
+
     const content = document.getElementsByClassName(SCROLL_CONTAINER)[0];
     console.log (content);
 

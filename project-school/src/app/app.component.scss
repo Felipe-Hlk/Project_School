@@ -2,6 +2,8 @@
 //   margin: 0px 15px 0px 15px;
 // }
 
+
+
 .example-spacer {
   flex: 1 1 auto;
 }
@@ -36,23 +38,30 @@ mat-sidenav-container {
   background-color: #326089;
 }
 
-.example-icon {
-  color: #f0f8ff;
-}
+
 
 .toolbar-submenu {
   height: 70px;
   font-size: 1.5rem;
   // margin-top: 30px;
-  margin-bottom: 5px;
   background: #326089;
   color: #f0f8ff;
 }
 
-
-.title {
-  margin-bottom: 500px;
+.submenu-title{
+  margin-left: 32px;
 }
+
+
+.example-icon {
+  color: #f0f8ff;
+}
+
+
+
+// .title {
+//   margin-bottom: 500px;
+// }
 
 
 // ------------sidebar------------- //
