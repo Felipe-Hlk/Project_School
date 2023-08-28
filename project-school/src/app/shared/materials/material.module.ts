@@ -7,6 +7,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatInputModule} from '@angular/material/input';
 import {MatListModule} from '@angular/material/list';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatSidenavModule,
     MatInputModule,
     MatListModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatMenuModule
   ],
   declarations:[],
   providers:[]

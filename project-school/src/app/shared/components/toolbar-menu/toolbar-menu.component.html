@@ -1,5 +1,35 @@
-<mat-toolbar class="toolbar-menu mat-elevation-z4" color="accent">
+<mat-toolbar align="end" class="toolbar-menu mat-elevation-z4" color="accent">
 
-  <mat-icon fontSet="fa" fontIcon="fa-school" ></mat-icon>
+  <mat-toolbar-row>
+    <a href="/dashboard" mat-button class="logo" >
+      <mat-icon fontSet="fa" fontIcon="fa-school"></mat-icon>
+      <span *ngIf="!popText"> {{menuTitle}} </span>
+    </a>
+
+    <div class="content-center">
+      <button mat-button [matMenuTriggerFor]="beforeMenu" >
+        <span>Menu</span>
+        <mat-icon class="mat-18">more_vert</mat-icon>
+      </button>
+
+      <mat-menu #beforeMenu ="matMenu">
+        <a href="" mat-menu-item >test</a>
+        <a href="" mat-menu-item >test</a>
+        <a href="" mat-menu-item >test</a>
+        <a href="" mat-menu-item >test</a>
+      </mat-menu>
+      <div>
+        <button mat-button [matMenuTriggerFor]="menu">
+          <mat-icon class="space-right-icon">account_circle</mat-icon>
+        </button>
+        <mat-menu #menu ="matMenu">
+          <a href="" mat-menu-item >test</a>
+          <a href="" mat-menu-item >test</a>
+          <a href="" mat-menu-item >test</a>
+          <a href="" mat-menu-item >test</a>
+        </mat-menu>
+      </div>
+    </div>
+  </mat-toolbar-row>
 
 </mat-toolbar>
